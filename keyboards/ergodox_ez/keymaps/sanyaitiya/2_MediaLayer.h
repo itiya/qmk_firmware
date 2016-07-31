@@ -37,5 +37,5 @@
                           KC_VOLU, KC_VOLD, KC_MUTE, KC_TRNS, KC_TRNS,
        KC_TRNS, KC_TRNS,
        KC_TRNS,
-       KC_TRNS, KC_TRNS, KC_BTN1
+       KC_TRNS, KC_BTN3, KC_BTN1
 ),
