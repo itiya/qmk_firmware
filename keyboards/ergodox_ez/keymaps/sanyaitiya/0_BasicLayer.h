@@ -27,10 +27,10 @@
         KC_TAB,         KC_Q,         KC_W,   KC_E,   KC_R,   KC_T,   TG(SYMB),
         KC_LCTRL,       KC_A,         KC_S,   KC_D,   KC_F,   KC_G,
         KC_LSFT,        CTL_T(KC_Z),  KC_X,   KC_C,   KC_V,   KC_B,   M(1),
-        KC_LGUI        ,KC_LALT,      LALT(KC_LSFT),  KC_LEFT,MO(CLIP),
+        KC_LGUI        ,KC_LALT,      LALT(KC_LSFT),  MO(CLIP),MO(MDIA),
                                               ALT_T(KC_APP),  KC_LGUI,
                                                               KC_HOME,
-                                               KC_SPC,KC_BSPC,MO(MDIA),
+                                               KC_SPC,KC_BSPC,KC_TRNS,
         // right hand
              KC_RGHT,     KC_6,   KC_7,   KC_8,   KC_9,   KC_0,             KC_MINS,
              TG(SYMB),    KC_Y,   KC_U,   KC_I,   KC_O,   KC_P,             KC_BSLS,
