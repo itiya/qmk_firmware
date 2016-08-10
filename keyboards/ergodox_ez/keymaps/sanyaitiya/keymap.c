@@ -29,11 +29,11 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt)
     break;
     case 1:
     if (record->event.pressed)
-      return MACRO( T(LANG2), D(LCTL), D(LSFT), T(PGUP), U(LCTL), U(LSFT), END );
+      return MACRO( T(LANG2), END );
     break;
     case 2:
     if (record->event.pressed)
-      return MACRO( T(LANG1), D(LCTL), D(LSFT), T(PGDN), U(LCTL), U(LSFT), END );
+      return MACRO( T(LANG1), END );
     break;
   }
   return MACRO_NONE;
