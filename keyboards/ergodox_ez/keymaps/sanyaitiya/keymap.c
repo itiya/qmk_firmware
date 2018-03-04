@@ -35,6 +35,14 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt)
     if (record->event.pressed)
       return MACRO( T(LANG1), END );
     break;
+    case 3:
+    if (record->event.pressed)
+      return MACRO(T(F16), T(LANG2), END);
+    break;
+    case 4:
+    if (record->event.pressed)
+      return MACRO(T(F17), T(LANG1), END);
+    break;
   }
   return MACRO_NONE;
 };
